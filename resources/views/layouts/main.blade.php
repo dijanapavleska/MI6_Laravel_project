@@ -12,14 +12,18 @@
 
 <body>
     <div class="nav-bar">
-        <img class="seal" src="/images/mi6-seal-bg.png" alt="">
+        <img class="seal" src="/images/mi6-seal.png" alt="">
         <p>Home</p>
         <p>People of Interest</p>
         <div class="visibility-toggle">&lt;</div>
     </div>
     <div class="content">
         @yield('content')
-
+        {{-- @yield('head')
+        <p>collar</p>
+        @yield('left-arm')
+        @yield('right-arm')
+        @yield('body') --}}
     </div>
 
     <script>
